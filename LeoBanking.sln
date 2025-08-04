@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.Api", "LeoBanking.Api\LeoBanking.Api.csproj", "{A2D1CFEB-2670-4E50-BCF9-EAC40DB1F98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.UnitTests", "LeoBanking.UnitTests\LeoBanking.UnitTests.csproj", "{7AD379E5-8512-4828-9D11-8DCD43CB7C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.Domain", "LeoBanking.Domain\LeoBanking.Domain.csproj", "{D24E929F-5BB4-4417-A360-D9787ED92DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.Application", "LeoBanking.Application\LeoBanking.Application.csproj", "{0C7A81FB-595C-43BF-8CE7-BB73F8080DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.Infrastructure", "LeoBanking.Infrastructure\LeoBanking.Infrastructure.csproj", "{3232F8C7-7A7B-4375-9B8E-D6A5773F0B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.Shared", "LeoBanking.Shared\LeoBanking.Shared.csproj", "{C5D15ACE-9ACE-4134-9DE4-3276B1A55F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeoBanking.IntegrationTests", "LeoBanking.IntegrationTests\LeoBanking.IntegrationTests.csproj", "{AF07E13B-08DB-4D2B-AE56-9769C898C0B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2D1CFEB-2670-4E50-BCF9-EAC40DB1F98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D1CFEB-2670-4E50-BCF9-EAC40DB1F98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D1CFEB-2670-4E50-BCF9-EAC40DB1F98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D1CFEB-2670-4E50-BCF9-EAC40DB1F98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD379E5-8512-4828-9D11-8DCD43CB7C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD379E5-8512-4828-9D11-8DCD43CB7C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD379E5-8512-4828-9D11-8DCD43CB7C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD379E5-8512-4828-9D11-8DCD43CB7C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24E929F-5BB4-4417-A360-D9787ED92DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24E929F-5BB4-4417-A360-D9787ED92DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24E929F-5BB4-4417-A360-D9787ED92DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24E929F-5BB4-4417-A360-D9787ED92DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7A81FB-595C-43BF-8CE7-BB73F8080DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7A81FB-595C-43BF-8CE7-BB73F8080DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7A81FB-595C-43BF-8CE7-BB73F8080DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7A81FB-595C-43BF-8CE7-BB73F8080DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3232F8C7-7A7B-4375-9B8E-D6A5773F0B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3232F8C7-7A7B-4375-9B8E-D6A5773F0B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3232F8C7-7A7B-4375-9B8E-D6A5773F0B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3232F8C7-7A7B-4375-9B8E-D6A5773F0B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D15ACE-9ACE-4134-9DE4-3276B1A55F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D15ACE-9ACE-4134-9DE4-3276B1A55F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D15ACE-9ACE-4134-9DE4-3276B1A55F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D15ACE-9ACE-4134-9DE4-3276B1A55F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF07E13B-08DB-4D2B-AE56-9769C898C0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF07E13B-08DB-4D2B-AE56-9769C898C0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF07E13B-08DB-4D2B-AE56-9769C898C0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF07E13B-08DB-4D2B-AE56-9769C898C0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LeoBanking.Domain\LeoBanking.Domain.csproj" />
+      <ProjectReference Include="..\LeoBanking.Infrastructure\LeoBanking.Infrastructure.csproj" />
+      <ProjectReference Include="..\LeoBanking.Shared\LeoBanking.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Minerals.StringCases" Version="0.2.2" />
+    </ItemGroup>
+
+</Project>

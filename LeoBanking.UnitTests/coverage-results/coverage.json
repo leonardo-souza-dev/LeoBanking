@@ -1,0 +1,962 @@
+{
+  "LeoBanking.Api.dll": {
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Api/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0
+          },
+          "Branches": []
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_2>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_2>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 199,
+              "EndOffset": 209,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Program/<>c/<<<Main>$>b__0_5>d": {
+        "System.Void Program/<>c/<<<Main>$>b__0_5>d::MoveNext()": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 89,
+              "Offset": 160,
+              "EndOffset": 162,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 160,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Api/Dtos/ClientDto.cs": {
+      "LeoBanking.Api.Dtos.ClientDto": {
+        "System.Int32 LeoBanking.Api.Dtos.ClientDto::get_Id()": {
+          "Lines": {
+            "3": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Api/Dtos/CreateClientRequest.cs": {
+      "LeoBanking.Api.Dtos.CreateClientRequest": {
+        "System.String LeoBanking.Api.Dtos.CreateClientRequest::get_Name()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal LeoBanking.Api.Dtos.CreateClientRequest::get_Balance()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "LeoBanking.Domain.Entities.Client LeoBanking.Api.Dtos.CreateClientRequest::ToEntity()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Api/Dtos/CreateTransferRequest.cs": {
+      "LeoBanking.Api.Dtos.CreateTransferRequest": {
+        "System.Int32 LeoBanking.Api.Dtos.CreateTransferRequest::get_OriginAccountNumber()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Api.Dtos.CreateTransferRequest::get_DestinationAccountNumber()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal LeoBanking.Api.Dtos.CreateTransferRequest::get_Amount()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "LeoBanking.Domain.Entities.Transfer LeoBanking.Api.Dtos.CreateTransferRequest::ToEntity()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Api/Dtos/TransferDto.cs": {
+      "LeoBanking.Api.Dtos.TransferDto": {
+        "System.Int32 LeoBanking.Api.Dtos.TransferDto::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Api.Dtos.TransferDto::get_OriginAccount()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Api.Dtos.TransferDto::get_DestinationAccount()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal LeoBanking.Api.Dtos.TransferDto::get_Amount()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "LeoBanking.Application.dll": {
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Application/Services/ClientService.cs": {
+      "LeoBanking.Application.Services.ClientService": {
+        "System.Void LeoBanking.Application.Services.ClientService::.ctor(LeoBanking.Infra.Data.LeoBankingDbContext)": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        }
+      },
+      "LeoBanking.Application.Services.ClientService/<Create>d__2": {
+        "System.Void LeoBanking.Application.Services.ClientService/<Create>d__2::MoveNext()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "15": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "24": 1,
+            "25": 1,
+            "27": 1,
+            "28": 1,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 1
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 206,
+              "EndOffset": 210,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 206,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 283,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 338,
+              "EndOffset": 340,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 380,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 338,
+              "EndOffset": 409,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 498,
+              "Path": 2,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 612,
+              "EndOffset": 614,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 654,
+              "Path": 3,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 612,
+              "EndOffset": 683,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 772,
+              "Path": 4,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 234,
+              "EndOffset": 885,
+              "Path": 5,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 955,
+              "EndOffset": 962,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 955,
+              "EndOffset": 1116,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "LeoBanking.Application.Services.ClientService/<GetAll>d__3": {
+        "System.Void LeoBanking.Application.Services.ClientService/<GetAll>d__3::MoveNext()": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        }
+      },
+      "LeoBanking.Application.Services.ClientService/<GetByAccountNumber>d__4": {
+        "System.Void LeoBanking.Application.Services.ClientService/<GetByAccountNumber>d__4::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Application/Services/TransferService.cs": {
+      "LeoBanking.Application.Services.TransferService": {
+        "System.Void LeoBanking.Application.Services.TransferService::.ctor(LeoBanking.Infra.Data.LeoBankingDbContext,LeoBanking.Shared.Wrappers.IConfigurationWrapper)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      },
+      "LeoBanking.Application.Services.TransferService/<Create>d__5": {
+        "System.Void LeoBanking.Application.Services.TransferService/<Create>d__5::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 150,
+              "EndOffset": 176,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 179,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 259,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 259,
+              "EndOffset": 329,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 350,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 350,
+              "EndOffset": 364,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 439,
+              "EndOffset": 441,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 439,
+              "EndOffset": 511,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 532,
+              "EndOffset": 534,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 532,
+              "EndOffset": 546,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 587,
+              "EndOffset": 589,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 587,
+              "EndOffset": 600,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 800,
+              "EndOffset": 804,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 800,
+              "EndOffset": 824,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 828,
+              "EndOffset": 862,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1039,
+              "EndOffset": 1041,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 828,
+              "EndOffset": 1082,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1039,
+              "EndOffset": 1111,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 828,
+              "EndOffset": 1202,
+              "Path": 2,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 828,
+              "EndOffset": 1317,
+              "Path": 3,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1387,
+              "EndOffset": 1394,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1387,
+              "EndOffset": 1550,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "LeoBanking.Application.Services.TransferService/<GetTransfers>d__6": {
+        "System.Void LeoBanking.Application.Services.TransferService/<GetTransfers>d__6::MoveNext()": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "LeoBanking.Domain.dll": {
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Domain/Entities/Account.cs": {
+      "LeoBanking.Domain.Entities.Account": {
+        "System.Int32 LeoBanking.Domain.Entities.Account::get_Number()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal LeoBanking.Domain.Entities.Account::get_Balance()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Domain.Entities.Account::AddAmount(System.Decimal)": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Domain.Entities.Account::SubtractAmount(System.Decimal)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 19,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 45,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean LeoBanking.Domain.Entities.Account::IsAllowedToMakeTransfersOf(System.Decimal)": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 16,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Domain/Entities/Client.cs": {
+      "LeoBanking.Domain.Entities.Client": {
+        "System.Int32 LeoBanking.Domain.Entities.Client::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String LeoBanking.Domain.Entities.Client::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Domain.Entities.Client::get_AccountNumber()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "LeoBanking.Domain.Entities.Account LeoBanking.Domain.Entities.Client::get_Account()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Domain.Entities.Client::SetAccountNumber(System.Int32)": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Domain/Entities/Transfer.cs": {
+      "LeoBanking.Domain.Entities.Transfer": {
+        "System.Int32 LeoBanking.Domain.Entities.Transfer::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Domain.Entities.Transfer::get_OriginAccountNumber()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 LeoBanking.Domain.Entities.Transfer::get_DestinationAccountNumber()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal LeoBanking.Domain.Entities.Transfer::get_Amount()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime LeoBanking.Domain.Entities.Transfer::get_Date()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "LeoBanking.Infra.Data.dll": {
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Infra.Data/LeoBankingDbContext.cs": {
+      "LeoBanking.Infra.Data.LeoBankingDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<LeoBanking.Domain.Entities.Client> LeoBanking.Infra.Data.LeoBankingDbContext::get_Clients()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<LeoBanking.Domain.Entities.Account> LeoBanking.Infra.Data.LeoBankingDbContext::get_Accounts()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<LeoBanking.Domain.Entities.Transfer> LeoBanking.Infra.Data.LeoBankingDbContext::get_Transfers()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Infra.Data.LeoBankingDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Infra.Data.LeoBankingDbContext::.ctor()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Void LeoBanking.Infra.Data.LeoBankingDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<LeoBanking.Infra.Data.LeoBankingDbContext>)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "LeoBanking.Shared.dll": {
+    "/mnt/projs/projs/dotnet/LeoBanking/LeoBanking.Shared/Wrappers/ConfigurationWrapper.cs": {
+      "LeoBanking.Shared.Wrappers.ConfigurationWrapper": {
+        "System.String LeoBanking.Shared.Wrappers.ConfigurationWrapper::GetValue(System.String)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 15,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 31,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void LeoBanking.Shared.Wrappers.ConfigurationWrapper::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
