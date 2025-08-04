@@ -11,7 +11,7 @@ API REST para sistema bancário simplificado onde é possível realizar cadastro
 
 #### Request:
 ```bash
-curl --location 'http://localhost:5105/api/v1/clients' \
+curl --location 'http://localhost:5000/api/v1/clients' \
 --header 'Content-Type: application/json' \
 --data '{
     "name": "Leo",
@@ -39,7 +39,7 @@ curl --location 'http://localhost:5105/api/v1/clients' \
 
 #### Request:
 ```bash
-curl --location 'http://localhost:5105/api/v1/clients' 
+curl --location 'http://localhost:5000/api/v1/clients' 
 ```
 
 #### Response:
@@ -69,7 +69,7 @@ curl --location 'http://localhost:5105/api/v1/clients'
 
 #### Request:
 ```bash
-curl --location 'http://localhost:5105/api/v1/clients/2'
+curl --location 'http://localhost:5000/api/v1/clients/2'
 ```
 
 #### Response:
@@ -93,7 +93,7 @@ curl --location 'http://localhost:5105/api/v1/clients/2'
 
 #### Request:
 ```bash
-curl --location 'http://localhost:5105/api/v1/transfers' \
+curl --location 'http://localhost:5000/api/v1/transfers' \
 --header 'Content-Type: application/json' \
 --data '{
     "originAccountNumber": 1,
@@ -124,7 +124,7 @@ curl --location 'http://localhost:5105/api/v1/transfers' \
 
 #### Request:
 ```bash
-curl --location 'http://localhost:5105/api/v1/transfers/1'
+curl --location 'http://localhost:5000/api/v1/transfers/1'
 ```
 
 #### Response:
@@ -185,4 +185,4 @@ $ dotnet run --project ./LeoBanking.Api/LeoBanking.Api.csproj
 $ dotnet test
 ```
 
-A aplicação estará disponível em: `http://localhost:5105`
+A aplicação estará disponível em: `http://localhost:5000`
